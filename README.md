@@ -50,7 +50,7 @@ print(n.feedforward(x))    # 0.9990889488055994 '''
 У этой сети два входа, скрытый слой с двумя нейронами (h1 и h2) и выходной слой с одним нейроном (o1). Обратите внимание, что входы для o1 – это выходы из h1 и h2. Именно это создает из нейронов сеть.
 
 ### Пишем код нейронной сети
-'''import numpy as np
+''' import numpy as np
 #Здесь код реализации неирона
 class OurNeuralNetwork:
   def __init__(self):
@@ -73,7 +73,7 @@ class OurNeuralNetwork:
 
 network = OurNeuralNetwork()
 x = np.array([2, 3])
-print(network.feedforward(x)) # 0.7216325609518421'''
+print(network.feedforward(x)) # 0.7216325609518421 '''
 Мы снова получили 0.7216! Похоже, наша сеть работает.
 
 
